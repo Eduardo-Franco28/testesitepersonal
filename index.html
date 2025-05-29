@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Rocha</title>
+    <link rel="stylesheet" href="style3.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+    <script src="https://unpkg.com/split-type"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+</head>
+
+<body>
+    <header id="header">
+        <img class="sem-titulo2" src="./img/logosvg.svg" alt="logoMobile">
+        <img class="semTitulo" src="./img/logoHeaderNova.png" alt="logo">
+        <nav class="menu-desktop">
+            <ul>
+                <a href="#consultoria">Consultoria</a>
+                <a href="#minhamissao" class="minhaMissao">Minha Missão</a>
+                <a href="#planos">Planos</a>
+                <a href="#depoimentos" class="Depoimentos">Depoimentos</a>
+                <a href="#formacao">Formação</a>
+            </ul>
+        </nav>
+        <a href="#planos" class="btn-quero-mudar">
+            Quero Mudar 
+            <img src="./img/Vector.png" alt="" class="vetor">
+        </a>
+
+        <div class="abrir-menu" id="abrir-menu">
+            <i class="bi bi-list"></i>
+        </div>
+        <div class="menu-mobile" id="menu-mobile">
+            <div class="fechar-menu">
+                <i class="bi bi-x-lg"></i>
+            </div>
+
+            <nav>
+                <ul>
+                    <li><a href="#consultoria">Minha Missão</a></li>
+                    <li><a href="#consultoria">Consultoria</a></li>
+                    <li><a href="#quemSou">Planos</a></li>
+                    <li><a href="#planos">Formação</a></li>
+                    <li><a href="#formação">Depoimentos</a></li>
+                </ul>
+            </nav>
+            <div class="overlay" id="overlay"></div>
+        </div>
+    </header>
+    <main>
+        <section class="telaInicial">
+            <img class="danilo-meio-preto" src="./img/danilomeiopreto.png" alt="">
+            <div class="todosTextos">
+                <h1>Não é só sobre treino</h1>
+                <h1 id="transformacao">É sobre <span>Transformação</span></h1>
+                <button class="btn1">
+                    <img src="./img/vetormain.png" alt="" class="vetor1">
+                    <a href="#planos">Comece Agora!</a>
+                </button>
+                <div>
+                    <img src="" alt=""> <!--immagem DANI-->
+                    
+                </div>
+            </div>
+        </section>
+        <section id="consultoria" class="Consultoria">
+            <h2>Consultoria <span>Presencial</span> ou <span>Online</span></h2>
+            <div class="quadrados">
+                <div class="quadradosConsultoria">
+                    <div><img src="./img/icons8-quiz-100.png" alt=""></div>
+                    <div>
+                        <h4 style="all: unset; color: black; "><strong>Anamnese</strong></h4>
+                        <p>Primeiro passo, onde se determinarão os fatores relevantes para o planejamento e a execução
+                            do programa de exercícios.</p>
+                    </div>
+                    <div>
+                        <!--Colocar outras imagens-->
+                    </div>
+                </div>
+                <div class="quadradosConsultoria">
+                    <div><img src="./img/icons8-torso-100.png" alt=""></div>
+                    <div>
+                        <h4 style="all: unset; color: black; "><strong>Avaliação Postural</strong></h4>
+                        <p>Aqui coletaremos dados posturais afim de corrigir problemas articulares decorrente de má
+                            postura e/ou lesões articulares. </p>
+                    </div>
+                    <div>
+                        <!--Colocar outras imagens-->
+                    </div>
+                </div>
+                <div class="quadradosConsultoria">
+                    <div><img src="./img/icons8-fit-100.png" alt=""></div>
+                    <div>
+                        <h4 style="all: unset; color: black; "><strong>Avaliação Física</strong></h4>
+                        <p>Fase em que avaliamos as condições iniciais e se estabelecem os limites e o ritmo para o
+                            programa de treinamento. </p>
+                    </div>
+                    <div>
+                        <!--Colocar outras imagens-->
+                    </div>
+                </div>
+
+                <div class="quadradosConsultoria">
+                    <div><img src="./img/icons8-what-i-do-100.png" alt=""></div>
+                    <div>
+                        <h4 style="all: unset; color: black; "><strong>Planejamento</strong></h4>
+                        <p>Com dados dos exames complementares, dados da avaliação física, e com os objetivos do aluno,
+                            é elaborado o planejamento do programa.</p>
+                    </div>
+                    <div>
+                        <!--Colocar outras imagens-->
+                    </div>
+                </div>
+
+                <div class="quadradosConsultoria">
+                    <div><img src="./img/icons8-teacher-100.png" alt=""></div>
+                    <div>
+                        <h4 style="all: unset; color: black; "><strong>Acompanhamento</strong></h4>
+                        <p>Supervisão na execução correta dos exercícios, evitando lesões e aumentando a eficiência do
+                            prograna de treinamento;</p>
+                    </div>
+                    <div>
+                        <!--Colocar outras imagens-->
+                    </div>
+                </div>
+                <div class="quadradosConsultoria">
+                    <div><img src="./img/icons8-repeat-100.png" alt=""></div>
+                    <div>
+                        <h4 style="all: unset; color: black; "><strong>Reavaliação</strong></h4>
+                        <p>Após um número determinado de sessões, a ser combinado entre o Personal e o Cliente, será
+                            elaborada uma nova avaliação.</p>
+                    </div>
+                    <div>
+                        <!--Colocar outras imagens-->
+                    </div>
+                </div>
+            </div>
+            <p class="zap" id="zap">Whatsapp disponível para consultas e tirar dúvidas todos os dias que precisar</p>
+        </section>
+        </section>
+       
+        <section id="minhamissao" class="missao">
+            <h2 class="titulo_missao">Missão e Valores</h2>
+            <div class="textao_missao">
+                <p class="frase-missao"> <img src="./img/Line 2.svg" alt="" class="sinal_menos">Promover saúde, qualidade de vida e autoestima por meio de treinamentos personalizados, com foco em resultados sustentáveis, segurança e motivação contínua, sendo referência na transformação de vidas através do exercício físico, reconhecido pelo profissionalismo, comprometimento e excelência no atendimento individualizado.</p>
+            </div>
+            <hr class="linha_missao">
+            <div class="primeira_linha_valores">
+                <div class="cards-valores">
+                    <img src="./img/aperto-mao-valores.png" alt="" class="aperto_mao">
+                    <h4>Comprometimento</h4>
+                    <p>Foco total nos seus objetivos: evolução do shape, performance na academia e transformação corporal!</p>
+                </div>
+                <div class="cards-valores" id="etica">
+                    <img src="./img/Frame2.png" alt="" class="aperto_mao">
+                    <h4>Ética e Profissionalismo</h4>
+                    <p>Trabalho sério, resultados reais: compromisso com sua evolução dentro dos princípios éticos e da melhor metodologia.</p>
+                </div>
+                <div class="cards-valores">
+                    <img src="./img/Frame3.png" alt="" class="aperto_mao">
+                    <h4>Motivação e Empatia</h4>
+                    <p>Motivação que impulsiona: acredito no seu potencial e vou te guiar com energia positiva em cada conquista!</p>
+                </div>
+            </div>
+            <div class="segunda_linha_valores">
+                <div class="cards-valores">
+                    <img src="./img/Frame4.png" alt="" class="aperto_mao">
+                    <h4>Atualização e Excelência</h4>
+                    <p>Evolução contínua: sua jornada merece o que há de mais atual em métodos e técnicas comprovadas.</p>
+                </div>
+                <div class="cards-valores">
+                    <img src="./img/Frame5.png" alt="" class="aperto_mao">
+                    <h4>Ética de Vida</h4>
+                    <p>Sua saúde em equilíbrio: Vamos construir hábitos sustentáveis para resultados que vão além da academia.</p>
+                </div>
+                <div class="cards-valores" id="respeito">
+                    <img src="./img/Frame6.png" alt="" class="aperto_mao" >
+                    <h4>Respeito</h4>
+                    <p>Sua individualidade em primeiro lugar: cada corpo tem seu ritmo, e seu treino respeita isso. Jornada personalizada, resultados reais.</p>
+                </div>
+            </div>
+        </section>
+         <section class="sobre_mim">
+            <div class="textoDani">
+                <h2>Sobre mim</h2>
+                <p>Nascido e criado na cidade de Campinas(SP), Me chamo <span>Danilo Rocha</span> e estudo à mais de <span>7 anos o aperfeiçoamento</span>,
+                    controle e
+                    manutenção da saúde e da mente humana;
+
+                    Morador de uma <span>região periférica</span> da cidade, me vi envolvido nesta área desde muito
+                    novo, sempre fui
+                    uma criança ativa e praticante de diversos esportes na infância e adolescência, onde essa paixão se
+                    estendeu intensamente durante minha formação básica;
+
+                    Trabalhei em diversas áreas antes de migrar fixamente para a <span>educação física</span>, na qual,
+                    estou
+                    totalmente envolvido e atuando hoje em dia.
+                </p>
+            </div>
+            <div>
+                <div class="danilos-imgs">
+                    <img class="danilo-vivo" src="./img//danilofoto.jpg" alt="">
+                    <img class="danilo-none" src="./img/danilofoto.jpg" alt="">
+                </div>
+            </div>
+
+        </section>
+        <section class="container" id="planos">
+            <h2 class="planos-h2">Planos</h2>
+            <div class="quadrados-planos">
+                <div class="card-1">
+                    <h2>BRONZE</h2>
+                    <h4>1 Protocolo de treino</h4>
+                    <h3>R$275,00</h3>
+                    <h4>válido por 6 semanas</h4>
+                    <a id="bronze"
+                        target="_blank">Compre Aqui!</a>
+                </div>
+                <div class="card-2">
+                    <h2>PRATA</h2>
+                    <h4>2 Protocolos de treino</h4>
+                    <h3>R$375,00</h3>
+                    <h4>válido por 12 semanas</h4>
+                    <a id="prata"
+                        target="_blank">Compre Aqui!</a>
+                </div>
+                <div class="card-3">
+                    <h2>OURO</h2>
+                    <h4>3 Protocolos de treino</h4>
+                    <h3>R$475,00</h3>
+                    <h4>válido por 18 semanas</h4>
+                    <a id="ouro"
+                        target="_blank">Compre Aqui!</a>
+                </div>
+            </div>
+        </section>
+        <section id="depoimentos" class="feedbacks">
+            <h2 class="alunosAcham">O que os Alunos acham!</h2>
+            <div class="cards-container">
+                <button class="seta-feedbacks" id="seta-esquerda"><img src="./img/Frame 9 (1).png" alt=""></button>
+                <div class="cards-feedbacks">
+                    <p class="texto-feedbacks">"Comecei perdido, sem foco. Em pouco tempo, com o Lindo me acompanhando de verdade, tudo mudou. Hoje treino com propósito, me sinto mais forte, confiante e com energia. Foi um dos melhores investimentos que já fiz."</p>
+                    <div class="name-feedbacks">
+                        <img src="./img/ndoChamp.png" alt="">
+                        <h6><span class="ndo">NDO Champ</span> <br> @ndochamp</h6>
+                    </div>
+                </div>
+                <div class="cards-feedbacks">
+                    <p class="texto-feedbacks">"Comecei perdido, sem foco. Em pouco tempo, com o Lindo me acompanhando de verdade, tudo mudou. Hoje treino com propósito, me sinto mais forte, confiante e com energia. Foi um dos melhores investimentos que já fiz."</p>
+                    <div class="name-feedbacks">
+                        <img src="./img/ndoChamp.png" alt="">
+                        <h6><span class="ndo">NDO Champ</span> <br> @ndochamp</h6>
+                    </div>
+                </div>
+                <div class="cards-feedbacks">
+                    <p class="texto-feedbacks">"Comecei perdido, sem foco. Em pouco tempo, com o Lindo me acompanhando de verdade, tudo mudou. Hoje treino com propósito, me sinto mais forte, confiante e com energia. Foi um dos melhores investimentos que já fiz."</p>
+                    <div class="name-feedbacks">
+                        <img src="./img/ndoChamp.png" alt="">
+                        <h6><span class="ndo">NDO Champ</span> <br> @ndochamp</h6>
+                    </div>
+                </div>
+
+
+                <div class="cards-feedbacks2 invisivel">
+                    <p class="texto-feedbacks">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi delectus quam laboriosam recusandae, vel asperiores perspiciatis. Ipsa sint ipsam molestiae laudantium iste sapiente, dolor ut! Itaque amet quis nihil est!</p>
+                    <div class="name-feedbacks">
+                        <img src="./img/ndoChamp.png" alt="">
+                        <h6><span class="ndo">NDO Champ</span> <br> @ndochamp</h6>
+                    </div>
+                </div>
+                <div class="cards-feedbacks2 invisivel">
+                    <p class="texto-feedbacks">Lorem, ipsum dolor sit amet consectetur adipisicing elit. At, sunt magnam earum neque aut, non, corporis eum accusantium ipsam qui deleniti? Adipisci dolorum doloribus rem reprehenderit modi suscipit autem magnam!</p>
+                    <div class="name-feedbacks">
+                        <img src="./img/ndoChamp.png" alt="">
+                        <h6><span class="ndo">NDO Champ</span> <br> @ndochamp</h6>
+                    </div>
+                </div>
+                <div class="cards-feedbacks2 invisivel">
+                    <p class="texto-feedbacks">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint saepe modi soluta recusandae magni quo, ullam quas quae nostrum alias ea ut odit voluptate. Qui amet ducimus adipisci ullam? Veritatis!</p>
+                    <div class="name-feedbacks">
+                        <img src="./img/ndoChamp.png" alt="">
+                        <h6><span class="ndo">NDO Champ</span> <br> @ndochamp</h6>
+                    </div>
+                </div>
+                <button class="seta-feedbacks" id="seta-direita"><img src="./img/Frame 8 (1).png" alt=""></button>
+            </div>
+            <!-- TITULO EVOLUÇÂO -->
+            <img src="./img/Frame 10 (1).png" alt="resultados" class="resultados-titulo">]
+            <div class="resultados">
+                <div>
+                    <img src="./img/evolucao1mu.png" alt="" class="evolucao1mu"> 
+                </div>
+                <div>
+                    <img src="./img/evolucao2mu.png" alt="" class="evolucao2mu">
+                </div>
+                <div>
+                    <img src="./img/evolucao3ho.png" alt="" class="evolucao1ho">
+                </div>
+            </div>
+        </section>
+        <section class="formação2" id="formacao">
+            <h2 id="h2">Formação<br><span>Acadêmica</span></h2>
+            <div class="geral">
+                <div class="danilo-mostrando">
+                    <img class="" src="" alt="">
+                </div>
+                <div class="formação-itens">
+
+                    <div class="quadrados-formações">
+                        <img src="./img/peso.png" alt="" class="image">
+                        <p>Formado em Educação Física(Licenciado e Bacharelado) pela faculdade Anhaguera de
+                            Campinas(FAC);</p>
+
+                    </div>
+                    <div class="quadrados-formações">
+                        <img src="./img/em-formacao (1).png" alt="" class="image">
+                        <p>Pós-graduado em Bioquímica, Fisiologia, Nutrição e Treinamento Desportivo, pela Universidade
+                            Estadual de Campinas(UNICAMP);</p>
+
+                    </div>
+
+                    <div class="quadrados-formações">
+                        <img src="./img/concorrencia.png" alt="" class="image-musculo">
+                        <p>Especialização em Biomecânica Aplicada ao Treinamento de <br>Força, pela Universidade de São
+                            Paulo(USP);</p>
+
+                    </div>
+                    <div class="quadrados-formações">
+                        <img src="./img/dieta.png" alt="" class="image">
+                        <p>Educador físico com experiência em emagrecimento, hipertrofia, musculação, funcional, corrida
+                            e treinamento para gestantes.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="container2">
+                <div class="row">
+                    <div class="footer-col">
+                        <h4>Sigam-me</h4>
+                        <div class="social-link">
+                            <a target="_blank" href="https://www.instagram.com/treinadordanrocha/"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Desenvolvido Por</h4>
+                        <div class="social-link">
+                            <a target="_blank" href="https://www.instagram.com/edu.franco_28/"><i class="fab fa-instagram"></i></a>
+                            <a id="eduardo" href="#">Eduardo</a>
+                        </div>
+                        <div class="social-link">
+                            <a target="_blank" href="https://www.instagram.com/edao_barba/"><i class="fab fa-instagram"></i></a>
+                            <a id="edson" href="#">Edson</a>
+                        </div>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Contatos</h4>
+                        <ul>
+                            <li><a target="_blank" href="https://wa.link/oxawmp">WhatsApp</a></li>
+                        </ul>
+                    </div>
+                    
+                </div>
+            </div>
+        </footer>
+    </main>
+    <script src="index.js"></script>
+    
+</body>
+
+</html>
