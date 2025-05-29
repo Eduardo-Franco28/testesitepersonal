@@ -340,15 +340,15 @@ header nav.menu-desktop ul a:hover{
     color: rgba(255, 255, 255, 0.733);
     font-family: "Inter", sans-serif;
     font-weight: 600;
-    font-size: 38px;
+    font-size: 2.375rem;
     text-align: justify;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    max-width: 930px;
-    margin-left: 570px;
-    margin-bottom: 70px;
+    max-width: 58.125rem;
+    margin-left: 35.625rem;
+    margin-bottom: 4.375rem;
 }
 
 .char{
@@ -1025,6 +1025,18 @@ ul{
     .alunosAcham{
         font-size: 40px;
     }
+    .cards-container{
+        width: 100vw;
+        overflow-x: auto;
+        display: flex;
+    }
+    .cards-feedbacks{
+        min-width: 18rem;
+        max-height: 22rem;
+    }
+    .seta-feedbacks{
+        display: none;
+    }
     .resultados-titulo{
         margin-left: 8px;
         margin-top: 200px;
@@ -1032,7 +1044,7 @@ ul{
         height: auto;
     }
     .resultados{
-        flex-direction: column ;
+        flex-direction: column;
     }
     .danilo-mostrandoCerto{
         display: none;
