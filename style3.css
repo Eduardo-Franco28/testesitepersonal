@@ -7,6 +7,8 @@
     box-sizing: border-box;
     list-style: none;
     font-family: "Inter", sans-serif;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
 }
 body{
     height: 100vh;
@@ -322,7 +324,7 @@ header nav.menu-desktop ul a:hover{
 .missao{
     background: url('./img/slideMissaoback.png') no-repeat;
     background-size: cover;
-    height: 145vh;
+    height: 145svh;
 }
 .titulo_missao{
     font-family: "Montserrat", sans-serif;
@@ -490,7 +492,7 @@ header nav.menu-desktop ul a:hover{
 /* Feedbacks */
 
 .feedbacks{
-    height: 210vh;
+    height: 210svh;
     background: linear-gradient(rgba(0, 0, 0, 0.411), rgba(0, 0, 0, 0.411)),url('./img//slide_resultado.png') no-repeat;
     background-size: cover;
 
@@ -980,8 +982,8 @@ ul{
         text-align: center;
     }
     .textao_missao{
-        margin-left: 5px;
-        margin-right: 5px;
+        margin: 0 auto;
+        padding: 0 1rem;
         font-size: 24px;
         max-width: 385px;
     }
