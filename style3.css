@@ -1030,11 +1030,18 @@ ul{
     .cards-container{
         width: 100vw;
         overflow-x: auto;
+        overflow-y: hidden;
         display: flex;
     }
-    .cards-feedbacks{
+    .cards-feedbacks, .cards-feedbacks2{
         min-width: 18rem;
         max-height: 22rem;
+    }
+    .invisivel{
+        display: block;
+    }
+    #primeiro_card_feedback{
+        margin-left: 67rem;
     }
     .seta-feedbacks{
         display: none;
@@ -1132,6 +1139,9 @@ ul{
     .image-musculo{
         padding-left: 10px;
         padding-bottom: 5px;
+    }
+    ::-webkit-scrollbar-thumb{
+        background-color: transparent;
     }
 }
 
