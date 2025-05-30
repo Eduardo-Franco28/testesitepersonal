@@ -1035,20 +1035,23 @@ ul{
     }
     .cards-feedbacks, .cards-feedbacks2{
         min-width: 18rem;
-        max-height: 22rem;
+        max-height: 50rem;
     }
     .invisivel{
         display: block;
     }
     #primeiro_card_feedback{
-        margin-left: 67rem;
+        margin-left: 73.5rem;
+    }
+    #ultimo_card_feedback{
+        margin-right: 4rem;
     }
     .seta-feedbacks{
         display: none;
     }
     .resultados-titulo{
-        margin-left: 8px;
-        margin-top: 200px;
+        margin-left: 25px;
+        margin-top: 130px;
         width: 370px;
         height: auto;
     }
