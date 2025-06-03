@@ -645,8 +645,7 @@ header nav.menu-desktop ul a:hover{
 }
 .quadrados-formações:hover{
     -webkit-text-fill-color: #ffffff;
-    background-color: #b4b4b4;
-    box-shadow: 5px 5px 12px #ff4500;
+    background-color: #FB4000;
     transform: scale(1.03);
     cursor: default;
 }
@@ -980,7 +979,7 @@ ul{
         display: none;
     }
     .missao{
-        height: 300vh;
+        height: 275vh;
         background-size: cover;
         background-position: left;
     }
@@ -1010,6 +1009,9 @@ ul{
         bottom: 120px;
         right: 280px;
     }
+    #atualização_e_excelencia{
+        font-size: 19.5px;
+    }
     .primeira_linha_valores, .segunda_linha_valores{
         flex-direction: column;
         gap: 0px;
@@ -1028,7 +1030,7 @@ ul{
         transition: all 0.3s ease-in-out; 
     }
     .feedbacks{
-        height: 400vh;
+        height: 385vh;
         background-size: cover;
     }
     .alunosAcham{
@@ -1137,8 +1139,7 @@ ul{
     }
     .quadrados-formações:hover{
         -webkit-text-fill-color: #ffffff;
-        background-color: #b4b4b4;
-        box-shadow: 5px 5px 12px #ff4500;
+        background-color: #FB4000;
         transform: scale(1.03);
         cursor: default;
     }
