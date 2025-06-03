@@ -260,6 +260,7 @@ header nav.menu-desktop ul a:hover{
     align-items: center;
     padding: 15px;
     transition: all 0.2s ease-in-out;
+    border-radius: 18px;   
 }
 .quadradosConsultoria:hover{
     background-color: #707070;
@@ -637,11 +638,15 @@ header nav.menu-desktop ul a:hover{
     padding: 20px;
     width: 350px;
     height: 250px; 
-    transition: all 0.2s ease-in-out;       
+    transition: all 0.2s ease-in-out;    
+    border-radius: 18px;   
 }
 .quadrados-formações img{
     width: 100px;
     height: auto;
+}
+.image{
+    filter: brightness(0) invert(1);
 }
 .quadrados-formações:hover{
     -webkit-text-fill-color: #ffffff;
