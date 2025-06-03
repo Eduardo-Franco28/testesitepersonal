@@ -673,7 +673,13 @@ ul{
     top: 100%;
     left: 0;
     padding: 70px 0;
-    background-color: #000000;
+    background-color: #242424;
+}
+#laranja{
+  border: 0;           /* Remove a borda padrão */
+  height: 1px;         /* Define a altura da linha */
+  background-color: #FB4000; /* Cor da linha (vermelho) */
+
 }
 .footer-col{
     width: 25%;
@@ -731,11 +737,11 @@ ul{
 }
 #edson{
     text-decoration: none;
-    background-color: #000;
+   background-color: #242424;
 }
 #eduardo{
     text-decoration: none;
-    background-color: #000;
+   background-color: #242424;
 }
 #edson:hover{
     text-decoration: none;

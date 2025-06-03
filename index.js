@@ -55,8 +55,8 @@ gsap.fromTo('.char',
     ease: 'power1.out',
     scrollTrigger: {
       trigger: '.frase',
-      start: '230% 100%',
-      end:'300% 80%',
+      start: '630% 100%',
+      end:'700% 80%',
       scrub: 1.5, 
       markers: false,
     }
