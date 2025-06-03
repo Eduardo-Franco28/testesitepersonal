@@ -263,7 +263,7 @@ header nav.menu-desktop ul a:hover{
     border-radius: 18px;   
 }
 .quadradosConsultoria:hover{
-    background-color: #707070;
+    background-color: #ff6430;
     color: #fff;
     transform: scale(1.03);
     cursor: default;
@@ -650,7 +650,7 @@ header nav.menu-desktop ul a:hover{
 }
 .quadrados-formações:hover{
     -webkit-text-fill-color: #ffffff;
-    background-color: #FB4000;
+    background-color: #ff6430;
     transform: scale(1.03);
     cursor: default;
 }
