@@ -253,8 +253,7 @@ header nav.menu-desktop ul a:hover{
     cursor: default;
 }
 .quadradosConsultoria{
-    background-color: #434141;
-    box-shadow: 2px 2px  10px rgba(255, 68, 0, 0.511);
+    background-color: #24262b;
     margin: 20px;
     display: flex;
     align-items: center;
